@@ -1,0 +1,47 @@
+@font-face {
+    font-family:'BungeesSpice';
+    src: url("../font/BungeeSpice/BungeeSpice-Regular.ttf") format('truetype');
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+html{
+    font-size: 18px;
+}
+
+li{
+    list-style-type:none;
+}
+
+a{
+   color: black; 
+   text-decoration: none;
+   font-size:27px;
+}
+
+
+/*-----header-------*/
+header{
+    margin: 10px;
+    padding: 10px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul li ul{
+    display: none;
+} 
+
+header nav ul li a:hover{
+    color: blue;
+}
+
+header nav ul li input{
+    padding: 5px;
+    border-radius:10px;
+}
