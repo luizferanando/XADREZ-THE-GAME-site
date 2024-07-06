@@ -22,6 +22,10 @@ a{
    font-size:27px;
 }
 
+p{
+   margin:5px;
+}
+
 
 /*-----header-------*/
 header{
@@ -45,3 +49,5 @@ header nav ul li input{
     padding: 5px;
     border-radius:10px;
 }
+
+
